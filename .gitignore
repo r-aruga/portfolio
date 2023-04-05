@@ -1,0 +1,6 @@
+# Gitの追跡から対象外するフォルダ・ファイルを指定するファイルです。commit済のファイルは影響を受けません。
+# 参考 -> https://git-scm.com/docs/gitignore
+# 設定例 -> https://github.com/github/gitignore
+
+.DS_Store
+node_modules

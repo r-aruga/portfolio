@@ -1,0 +1,13 @@
+// Visual Studio Codeの拡張機能を管理するJSON with Comments形式のファイルです。
+// .vscodeフォルダ配下に配置するとVisual Studio Code起動時にそのワークスペースの推奨拡張機能としてレコメンドされます。
+{
+    "recommendations": [
+        "ms-ceintl.vscode-language-pack-ja",
+        "emmanuelbeziat.vscode-great-icons",
+        "mhutchie.git-graph",
+        "waderyan.gitblame",
+        "donjayamanne.githistory",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}

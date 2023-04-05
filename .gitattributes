@@ -1,0 +1,6 @@
+# 指定の拡張子を持つファイルに属性を付与し、git commit, git pull時に改行コードや文字コードを強制するファイルです。
+# 参考 -> https://git-scm.com/docs/gitattributes
+# 設定例 -> https://github.com/alexkaratarakis/gitattributes
+
+* text=auto
+*.md text encoding=utf-8 eol=lf
