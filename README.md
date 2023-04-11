@@ -1,6 +1,5 @@
-# Strategies for Portfolio
+# Strategies for Portfolio <!-- omit in toc -->
 
-- [Strategies for Portfolio](#strategies-for-portfolio)
 - [Purpose of this repository](#purpose-of-this-repository)
 - [Getting Started](#getting-started)
   - [Folder structure](#folder-structure)
@@ -33,14 +32,15 @@
    - 自分に向けたメモ書き、備忘録として記載します。
    - 各アーキテクチャ分野の単位でフォルダ・ファイルを分けます。
    - フォルダ分けは `言語（アーキテクチャの種類） > フレームワーク or ライブラリ`の単位が望ましいです。
-   - 例 -> `architectures/python/django-rest-framework/アクセストークンを発行する方法.md`など。
+   - 例 -> `today-i-Learned/linux/bashの便利なコマンド集.md`など。
 3. [architectures](architectures/) ->
    - 学んだことをアウトプットした内容を書き出します。（markdown形式）
    - ナレッジとして第三者に公開するイメージで、丁寧な文面と正しい情報を心がけて記載します。
    - markdownファイルのタイトルは何のアーキテクチャに関連しているか分かりやすいものを記載します。
    - 各アーキテクチャ分野の単位でフォルダ・ファイルを分けます。
    - フォルダ分けは `言語（アーキテクチャの種類） > フレームワーク or ライブラリ`の単位が望ましいです。
-   - 例 -> `today-i-Learned/linux/bashの便利なコマンド集.md`など。
+   - 例 -> `architectures/python/django-rest-framework/アクセストークンを発行する方法.md`など。
+
 4. [applications](applications/) ->
    - これまでの学習内容をもとに、自身が作成したアプリケーションを配置します。
    - 適切に環境構築、ビルドすれば正常に動作する形で登録することが望ましいです。
