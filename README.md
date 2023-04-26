@@ -3,7 +3,7 @@
 - [Purpose of this repository](#purpose-of-this-repository)
 - [Getting Started](#getting-started)
   - [Folder structure](#folder-structure)
-  - [Initialize](#initialize)
+  - [Initialize Repository](#initialize-repository)
 
 ---
 
@@ -48,4 +48,18 @@
    - アプリケーションの単位でフォルダを分けます。
    - 例 -> `applications/todo-app-with-react`など。
 
-## Initialize
+## Initialize Repository
+
+1. このリポジトリをローカル環境にクローンします。
+
+   ```bash
+   # HTTPS経由
+   git clone https://github.com/r-aruga/portfolio.git
+   ```
+
+2. 以下のコマンドを実行し、.gitフォルダを削除してリポジトリ情報を初期化します。
+
+   ```bash
+   rm -rf .git && git init
+   ```
+
