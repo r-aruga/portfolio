@@ -1,11 +1,13 @@
 // Visual Studio Codeの設定・オプションを管理するJSON with Comments形式のファイルです。
 // .vscodeフォルダ配下に配置するとそのワークスペースの内で有効な設定・オプションとして適用されます。
 {
-    "editor.formatOnSave": true,
-    "markdown.extension.toc.updateOnSave": true,
-    "files.insertFinalNewline": true,
-    "markdown.extension.preview.autoShowPreviewToSide": true,
-    "cSpell.words": [
-        "Progate"
-    ]
+  "editor.formatOnSave": true,
+  "markdown.extension.toc.updateOnSave": true,
+  "files.insertFinalNewline": true,
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "cSpell.words": ["cheatsheet", "Progate", "Qiita", "strikethrough"],
+  "[markdown]": {
+    // markdownは行末尾の半角スペースを削除しない。
+    "files.trimTrailingWhitespace": false
+  }
 }
