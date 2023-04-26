@@ -5,13 +5,9 @@
   "markdown.extension.toc.updateOnSave": true,
   "files.insertFinalNewline": true,
   "markdown.extension.preview.autoShowPreviewToSide": true,
-  "cSpell.words": [
-    "Progate",
-    "Qiita",
-    "strikethrough"
-],
+  "cSpell.words": ["cheatsheet", "Progate", "Qiita", "strikethrough"],
   "[markdown]": {
     // markdownは行末尾の半角スペースを削除しない。
-    "files.trimTrailingWhitespace": false,
-},
+    "files.trimTrailingWhitespace": false
+  }
 }
