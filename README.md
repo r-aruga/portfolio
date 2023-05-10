@@ -63,3 +63,16 @@
    rm -rf .git && git init
    ```
 
+3. 自身で用意したリポジトリにpushします。
+
+```bash
+# commitするためにユーザー情報を設定。
+git config --local user.name "{your-name}"
+git config --local user.email "{your-email}"
+
+# リモートリポジトリの情報をconfigに設定。
+git config --local remote.origin.url "git@github.com:{your-name}/{your-repo-name}.git"
+
+# リモートリポジトリにブランチをpush。
+git push --set-upstream origin main
+```
